@@ -1,0 +1,60 @@
+
+2013-06-22 15:27:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /roundbob/img/icons/picture.png
+Stack Trace:
+#0 E:\wamp\www\roundbob\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-22 15:29:08 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'file_extension' doesn't have a default value
+Request URL: /roundbob/my_files/add/433d38b2264e0de637a1833ae301eafd
+Stack Trace:
+#0 E:\wamp\www\cakephp2.3.6.0\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 E:\wamp\www\cakephp2.3.6.0\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `ro...', Array)
+#2 E:\wamp\www\cakephp2.3.6.0\lib\Cake\Model\Datasource\DboSource.php(1007): DboSource->execute('INSERT INTO `ro...')
+#3 E:\wamp\www\cakephp2.3.6.0\lib\Cake\Model\Model.php(1744): DboSource->create(Object(MyFile), Array, Array)
+#4 E:\wamp\www\roundbob\Controller\MyFilesController.php(81): Model->save(Array)
+#5 [internal function]: MyFilesController->add('433d38b2264e0de...')
+#6 E:\wamp\www\cakephp2.3.6.0\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(MyFilesController), Array)
+#7 E:\wamp\www\cakephp2.3.6.0\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 E:\wamp\www\cakephp2.3.6.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(MyFilesController), Object(CakeRequest), Object(CakeResponse))
+#9 E:\wamp\www\roundbob\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-06-22 17:08:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /roundbob/img/imagecache/destinations/default.png
+Stack Trace:
+#0 E:\wamp\www\roundbob\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-22 17:08:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /roundbob/css/images/loading.gif
+Stack Trace:
+#0 E:\wamp\www\roundbob\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-22 17:08:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /roundbob/img/imagecache/destinations/default.png
+Stack Trace:
+#0 E:\wamp\www\roundbob\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-22 17:09:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /roundbob/css/images/loading.gif
+Stack Trace:
+#0 E:\wamp\www\roundbob\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
